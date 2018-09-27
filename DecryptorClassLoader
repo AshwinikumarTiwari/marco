@@ -1,0 +1,22 @@
+
+//**
+*	@author   Ashwinikumar Tiwari
+*
+*	Class to load classes to secure source code in insecure cheap public clouds
+	This class will be used to safely deploy compiled serverless servces
+*
+*  Note this work is in abstract state, a Correponding Encryptor has to be coded when time permits to run before packing a jar. 
+    Signing jars is an option, - by jarsigner and keytool for creating Dev or QA certificates by Keytool locally in any JDK is other option
+*/
+public DecryptorClassLoader extends UrlClassloader {
+
+	@OVerrides
+	protected Class findClass(String name)
+                      throws ClassNotFoundException {
+
+		//Decyription code of class goes here
+
+		Class c = loadClass(name);
+	}
+
+}
