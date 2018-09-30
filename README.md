@@ -1,8 +1,7 @@
-# marco
-#Payment Gateway Setup
+# Payment Gateway Setup
 
-For enabling online payment transactions for your Enterprise / Web Application or Mobile App 
-you will use a Payment Gateway for processing money transactions to receive money for your company's products.
+To receive money for enabling online payment transactions for your Enterprise / Web Application or Mobile App 
+you will use a Payment Gateway for processing money transactions for your company's products.
 
 
 Encryption
@@ -18,9 +17,4 @@ Please refer various Payment Gateways' homepages for further information:-
 	
 	
 Note:
-As time permits I will write some code examples for reference, or you can download actual source code from Payment Gateway website.
-	
-
-
-
-
+As time permits I will write some code examples for reference, or you can download actual source code from Payment Gateway website. In case you need any help for free for this, shoot me an email.
